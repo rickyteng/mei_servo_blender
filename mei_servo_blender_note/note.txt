@@ -1,0 +1,11 @@
+When meilin_bone.blend play animation, it sends bone angles in sequence.
+Data sends out is different from that shows in blender console window.
+Data that sends out uses UDP, sends to 127.0.0.1:9999
+The data will look like:
+
+-96.39201454866709,113.60607201195853,1.5572903577973654e-06,-2.734744219538386e-07,5.33606843213265e-08,-1.05241800303718e-05,1.865749952525336e-08,-1.192421297627613e-06,7.631166249179126e-13,7.516899522617251e-14
+
+(String, ends with '\n')
+
+This format is suitable for human but not for machine.
+So the data need to transform from string to float, then transfer to robot control board.
