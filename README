@@ -1,3 +1,7 @@
-About License
+About License:
 	Code is under GPL2. Please refer GNU_LICENSE.
 	Others are under CC 3.0. Please refer CC_LICENSE.
+	
+Usage:
+	1. Open meilin_bone.blend with Blender (2.69 above)
+	2. Refer mei_servo_blender_note.
